@@ -9,22 +9,27 @@
 body {
 	background-color: black;
 	font: 2em Blackout;
-	text-shadow: white 0px 0px 3px;
 	letter-spacing: 6px;
 	color: black;
 	padding: 0;	
 	margin: 0;
 }
 h1 {
+	font-family: BlackoutSunrise;
 	text-align: center;
 	margin-bottom: 4%;
 	margin-top: 2%;
+	color: white;
+	font-weight: lighter;
 }
 span {
-	color: rgb(45, 45, 45);
+	font-family: Blackout;
+	color: rgb(119, 119, 119);
+	font-size: 1.05em;
 }
-h3 {
+h3, h2 {
 	font-size: 1.4em;
+	text-shadow: white 0px 0px 1px;
 	margin-top: 1%;
 }
 .show {

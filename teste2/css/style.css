@@ -9,22 +9,33 @@
 body {
 	background-color: black;
 	font: 2em Blackout;
-	text-shadow: white 0px 0px 3px;
 	letter-spacing: 6px;
 	color: black;
 	padding: 0;	
 	margin: 0;
 }
-h1 {
-	text-align: center;
+header h1 {
+	font-family: BlackoutSunrise;
 	margin-bottom: 4%;
 	margin-top: 2%;
+	color: white;
+	font-weight: lighter;
+	width: 100%;
+	display: inline-table;
 }
-span {
-	color: rgb(45, 45, 45);
+h1 * {
+	margin-bottom: 0px;
 }
-h3 {
+.bili {
+	font-family: Blackout;
+	color: rgb(119, 119, 119);
+	font-size: 2em;
+	text-align: left;
+	margin-top: 1.3%;	
+}
+h3, h2 {
 	font-size: 1.4em;
+	text-shadow: white 0px 0px 3px;
 	margin-top: 1%;
 }
 .show {
@@ -50,4 +61,12 @@ div p {
 	float: left;
 	width: 50%;
 	text-align: center;
+}
+h1 * {
+	width: 50%;
+	float: left;
+	margin-right: 0px;
+}
+.felipe {
+	text-align: right;
 }
