@@ -1,0 +1,134 @@
+@font-face {
+	font-family: Blackout;
+	src: url(../font/blackout.ttf);
+}
+@font-face {
+	font-family: BlackoutSunrise;
+	src: url(../font/blackout-sunrise.ttf);
+}
+body {
+	background-color: rgb(8, 8, 8);
+	padding: 0;	
+	margin: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: rgb(221, 221, 221);
+	font-family: Calibri, sans-serif;
+}
+h1 {
+	font-family: BlackoutSunrise;
+	color: white;
+	font-weight: lighter;
+}
+body>header h1 {
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 2%;;
+	margin-top: 2%;
+}
+body>header h1 span {
+	color: rgb(119, 119, 119);
+	font-size: 1.05em;
+}
+span {
+	font-family: Blackout;
+}
+.content {
+	margin-top: 5%;
+}
+article {
+	background-color: black;
+	width: 70%
+}
+.show header {
+	background-image: url(../img/capa2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 2.5em;
+	text-align: right;
+	padding: 2%;
+	padding-top: 4%;
+}
+.show header h1 {
+	margin-top: 0;
+}
+.show header h2 {
+	color: rgb(221, 221, 221);
+	margin-bottom: 0;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	font-weight: lighter;
+}
+.show p, .show label {
+	color: rgb(221, 221, 221);
+	font-family: Calibri, sans-serif;
+	font-size: 1.4em;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+.show .local-information p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: lighter;
+}
+.show .ticket-information h3 {
+	font-weight: lighter;
+	margin-bottom: 4%;
+	margin-top: 2%;
+	font-size: 2.3em;
+	letter-spacing: 3px;
+	font-family: blackout;
+	text-align: center;
+}
+.show .ticket-information form input, .more-info {
+	background: rgb(91, 91, 255);
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-right: 2%;
+	border: none;
+	font-family: Calibri, sans-serif;
+	font-size: 1.6em;
+	margin-bottom: 2%;
+	font-variant: small-caps;
+	cursor: pointer;
+	color: black;
+}
+.ticket-information .send-info {
+	font-size: 1em;
+}
+.ticket-information h4 {
+	font-size: 2.6em;
+	font-weight: lighter;
+	font-variant: small-caps;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.ponto-venda {
+	padding: 0;
+	font-weight: lighter;
+	margin-bottom: 4%;
+}
+.ponto-venda h5 {
+	margin-bottom: 1%;
+	margin-top: 1%;
+	font-weight: lighter;
+	font-size: 1.4em;
+}
+.ponto-venda p {
+	font-size: 1.2em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.more-info {
+	font-size: 1em;
+}
+.more-info-p {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: rgb(91, 91, 255);
+}
+article div{
+	padding: 2%;
+}
