@@ -59,12 +59,32 @@ article {
 	font-variant: small-caps;
 	font-weight: lighter;
 }
-.show p, .show label {
+.show p, .show label, .show .div-comprar p span {
 	color: rgb(221, 221, 221);
 	font-family: Calibri, sans-serif;
 	font-size: 1.4em;
 	margin-top: 1%;
 	margin-bottom: 0;
+	font-weight: lighter;
+}
+.show input {
+	float: left;
+}
+.show .div-comprar {
+	display: inline-table;
+	padding: 2% 15% 1% 15%;
+	background-color: rgb(8, 8, 8);
+	border-bottom: 2px solid black;
+	width: 71%;
+}
+.show .div-comprar p {
+	float: left;
+	width: 75%;
+	padding-right: 2%;
+}
+.show .div-comprar p span {
+	font-size: 1em;
+	float: right;
 }
 .show .local-information p {
 	margin-top: 0;
@@ -82,8 +102,8 @@ article {
 }
 .show .ticket-information form input, .more-info {
 	background: rgb(91, 91, 255);
-	padding-left: 1%;
-	padding-right: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
 	padding-bottom: 1%;
 	margin-right: 2%;
 	border: none;

@@ -35,16 +35,20 @@
 				</div>
 				<div class="ticket-information">
 					<h3>Ingressos</h3>
-					<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" target="_blank">
-						<input type="hidden" name="itemCode" value="7F836CB67373D8111405AFA5A9361499" />
-						<input type="submit" value="comprar" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" /> 
-						<label>Comum: R$30,00 + taxas</label>
-					</form>
-					<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" target="_blank">
-						<input type="hidden" name="itemCode" value="C3870ABD8B8BDA1BB4EEDF96613FB305" />
-						<input type="submit" value="comprar" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" /> 
-						<label>Com transporte: R$45,00 + taxas</label>
-					</form>
+					<div class="div-comprar">
+						<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" target="_blank">
+							<input type="hidden" name="itemCode" value="7F836CB67373D8111405AFA5A9361499" />
+							<p>Ingresso comum <span>R$30,00 + taxas</span></p>
+							<input type="submit" value="comprar" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" /> 
+						</form>
+					</div>
+					<div class="div-comprar">
+						<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" target="_blank">
+							<input type="hidden" name="itemCode" value="C3870ABD8B8BDA1BB4EEDF96613FB305" />
+							<p>Ingresso + transporte <span>R$45,00 + taxas</span></p>
+							<input type="submit" value="comprar" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" /> 
+						</form>
+					</div>
 					<p class="send-info">* Ingressos enviados em até 2 dias após o pagamento</p>
 					<h4>Pontos de Venda</h4>
 					<div class="ponto-venda">
