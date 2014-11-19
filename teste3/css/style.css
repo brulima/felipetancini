@@ -10,8 +10,8 @@ body {
 	background-color: rgb(8, 8, 8);
 	padding: 0;	
 	margin: 0;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 7%;
+	padding-right: 7%;
 	color: rgb(221, 221, 221);
 	font-family: Calibri, sans-serif;
 }
@@ -34,11 +34,34 @@ span {
 	font-family: Blackout;
 }
 .content {
-	margin-top: 5%;
+	margin-top: 3%;
+	width: 100%;
+	display: inline-table;
+}
+.side-bar {
+	width: 28%;
+	float: left;
+	background-color: black;
+}
+.side-bar h2 {
+	font-family: Blackout;
+	font-weight: lighter;
+	font-size: 2.5em;
+	font-variant: small-caps;
+	padding-left: 5%;
+}
+.side-bar .redes-sociais img {
+	width: 15%;
+	padding: 0 2% 2% 2%;
+}
+.side-bar .redes-sociais .twitter-img {
+	width: 14.5%;
 }
 article {
 	background-color: black;
-	width: 70%
+	float: left;
+	width: 67%;
+	margin-right: 5%;
 }
 .show header {
 	background-image: url(../img/capa2.jpg);
@@ -67,24 +90,33 @@ article {
 	margin-bottom: 0;
 	font-weight: lighter;
 }
-.show input {
-	float: left;
-}
 .show .div-comprar {
 	display: inline-table;
-	padding: 2% 15% 1% 15%;
+	padding: 2% 12.5% 1% 12.5%;
 	background-color: rgb(8, 8, 8);
 	border-bottom: 2px solid black;
-	width: 71%;
-}
-.show .div-comprar p {
-	float: left;
 	width: 75%;
+}
+.show .div-comprar div {
+	float: left;
+	padding: 0;
+}
+.show .div-comprar .tipo-ingresso {
+	width: 40%;
+}
+.show .div-comprar .preco-ingresso {
+	width: 38%;
 	padding-right: 2%;
 }
-.show .div-comprar p span {
-	font-size: 1em;
+.show .div-comprar .preco-ingresso p {
 	float: right;
+}
+.show .div-comprar .comprar-ingresso {
+	width: 20%;
+	text-align: center;
+}
+.show .div-comprar .comprar-ingresso input{
+	padding: 0 7% 4% 7%;
 }
 .show .local-information p {
 	margin-top: 0;
@@ -152,4 +184,76 @@ a {
 }
 article div{
 	padding: 2%;
+}
+@media (max-width: 1165px) {
+	.show header h1 {
+		font-size: 1.3em;
+	}
+	.show header h2 {
+		font-size: 1.1em;
+	}
+	.show p, .show label, .show .div-comprar p span {
+		font-size: 1.2em;
+	}
+}
+@media (max-width: 1075px) {
+	body>header h1 {
+		font-size: 4em;
+	}
+	.show header h1 {
+		font-size: 1.1em;
+	}
+	.show header h2 {
+		font-size: 1em;
+	}
+}
+@media (max-width: 1075px) {
+	body>header h1 {
+		font-size: 3.2em;
+	}
+	.show header h1 {
+		font-size: 0.9em;
+	}
+	.show header h2 {
+		font-size: 0.8em;
+	}
+	.show p, .show label, .show .div-comprar p span {
+		font-size: 1em;
+	}
+}
+@media (max-width: 695px) {
+	body {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	article {
+		width: 100%;
+	}
+	.side-bar {
+		width: 70%;
+		padding: 2% 15%
+	}
+}
+@media (max-width: 600px) {
+	body>header h1 {
+		font-size: 2.8em;
+	}
+}
+@media (max-width: 530px) {
+	body>header h1 {
+		font-size: 2em;
+	}
+}
+@media (max-width: 420px) {
+	.show header h1 {
+		font-size: 0.7em;
+	}
+	.show header h2 {
+		font-size: 0.6em;
+	}
+}
+@media (max-width: 380px) {
+	body>header h1 {
+		font-size: 1.7em;
+	}
 }
