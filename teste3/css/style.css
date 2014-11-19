@@ -7,12 +7,12 @@
 	src: url(../font/blackout-sunrise.ttf);
 }
 body {
-	background-color: rgb(8, 8, 8);
+	background-color: #080808;
 	padding: 0;	
 	margin: 0;
 	padding-left: 7%;
 	padding-right: 7%;
-	color: rgb(221, 221, 221);
+	color: #DDDDDD;
 	font-family: Calibri, sans-serif;
 }
 h1 {
@@ -27,7 +27,7 @@ body>header h1 {
 	margin-top: 2%;
 }
 body>header h1 span {
-	color: rgb(119, 119, 119);
+	color: #777777;
 	font-size: 1.05em;
 }
 span {
@@ -76,14 +76,14 @@ article {
 	margin-top: 0;
 }
 .show header h2 {
-	color: rgb(221, 221, 221);
+	color: #DDDDDD;
 	margin-bottom: 0;
 	font-size: 1.5em;
 	font-variant: small-caps;
 	font-weight: lighter;
 }
 .show p, .show label, .show .div-comprar p span {
-	color: rgb(221, 221, 221);
+	color: #DDDDDD;
 	font-family: Calibri, sans-serif;
 	font-size: 1.4em;
 	margin-top: 1%;
@@ -93,7 +93,7 @@ article {
 .show .div-comprar {
 	display: inline-table;
 	padding: 2% 12.5% 1% 12.5%;
-	background-color: rgb(8, 8, 8);
+	background-color: #080808;
 	border-bottom: 2px solid black;
 	width: 75%;
 }
@@ -133,7 +133,7 @@ article {
 	text-align: center;
 }
 .show .ticket-information form input, .more-info {
-	background: rgb(91, 91, 255);
+	background: #5B5BFF;
 	padding-left: 2%;
 	padding-right: 2%;
 	padding-bottom: 1%;
@@ -180,7 +180,7 @@ article {
 }
 a {
 	text-decoration: none;
-	color: rgb(91, 91, 255);
+	color: #5B5BFF;
 }
 article div{
 	padding: 2%;
