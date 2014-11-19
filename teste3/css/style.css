@@ -7,7 +7,7 @@
 	src: url(../font/blackout-sunrise.ttf);
 }
 body {
-	background-color: #080808;
+	background-color: rgba(0, 0, 0, 0.97);
 	padding: 0;	
 	margin: 0;
 	padding-left: 7%;
@@ -93,7 +93,7 @@ article {
 .show .div-comprar {
 	display: inline-table;
 	padding: 2% 12.5% 1% 12.5%;
-	background-color: #080808;
+	background-color: rgba(255, 255, 255, 0.05);
 	border-bottom: 2px solid black;
 	width: 75%;
 }
