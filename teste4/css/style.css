@@ -1,0 +1,205 @@
+@font-face {
+	font-family: Blackout;
+	src: url(../font/blackout.ttf);
+}
+@font-face {
+	font-family: BlackoutSunrise;
+	src: url(../font/blackout-sunrise.ttf);
+}
+body {
+	background-color: rgb(34, 35, 46);
+	padding: 0;	
+	margin: 0;
+	padding-left: 7%;
+	padding-right: 7%;
+	color: #DDDDDD;
+	font-family: Calibri, sans-serif;
+}
+h1 {
+	font-family: BlackoutSunrise;
+	color: white;
+	font-weight: lighter;
+}
+body>header h1 {
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 2%;;
+	margin-top: 2%;
+}
+body>header h1 span {
+	color: #777777;
+	font-size: 1.05em;
+}
+span {
+	font-family: Blackout;
+}
+.content {
+	margin-top: 3%;
+	width: 100%;
+	display: inline-table;
+}
+.side-bar {
+	width: 28%;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.51);
+}
+.side-bar h2 {
+	font-family: Blackout;
+	font-weight: lighter;
+	font-size: 2.5em;
+	font-variant: small-caps;
+	padding-left: 5%;
+}
+.side-bar .redes-sociais img {
+	width: 15%;
+	padding: 0 2% 2% 2%;
+	opacity: 0.9;
+}
+article {
+	background-color: rgba(0, 0, 0, 0.51);
+	float: left;
+	width: 67%;
+	margin-right: 5%;
+}
+.show header img {
+	width: 100%;
+	height: auto;
+}
+.show .div-comprar {
+	display: inline-table;
+	padding: 2% 12.5% 1% 12.5%;
+	background-color: rgba(255, 255, 255, 0.10);
+	border-bottom: 2px solid black;
+	width: 75%;
+}
+.show .div-comprar div {
+	float: left;
+	padding: 0;
+}
+.show .div-comprar .tipo-ingresso {
+	width: 40%;
+}
+.show .div-comprar .preco-ingresso {
+	width: 55%;
+	padding-right: 2%;
+	display: inline-table;
+	padding-top: 18%;
+}
+.show .div-comprar .preco-ingresso p {
+	float: left;
+	line-height: 30px;
+	color: #DDDDDD;
+	font-family: Calibri, sans-serif;
+	font-weight: lighter;
+}
+.preco {
+	width: 70%;
+	font-size: 1.6em;
+}
+.btncomprar {
+	width: 30%;
+}
+input#comprar {
+	padding: 0 7% 4% 7%;
+	background-image: url(../img/btnComprar.jpg);
+	background-size: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 4.5%;
+	margin-right: 4%;
+	border: none;
+	font-size: 1.4em;
+	font-family: Calibri, sans-serif;
+	margin-bottom: 2%;
+	font-variant: small-caps;
+	cursor: pointer;
+	color: black;
+}
+.show .ticket-information h3 {
+	font-weight: lighter;
+	margin-bottom: 4%;
+	margin-top: 2%;
+	font-size: 2.3em;
+	letter-spacing: 3px;
+	font-family: blackout;
+	text-align: center;
+}
+.show .ticket-information img {
+	width: 70%;
+	height: auto;
+	border: 5px solid black;
+}
+.ticket-information .send-info {
+	font-size: 1em;
+}
+.ticket-information h4 {
+	font-size: 2.6em;
+	font-weight: lighter;
+	font-variant: small-caps;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+a {
+	text-decoration: none;
+	color: #5B5BFF;
+}
+article div{
+	padding: 2%;
+}
+@media (max-width: 1165px) {
+	.preco {
+		font-size: 1.4em;
+	}
+	input#comprar {
+		font-size: 1.4em;
+	}
+}
+@media (max-width: 1000px) {
+	.preco {
+		font-size: 1.2em;
+	}
+	input#comprar {
+		font-size: 1.2em;
+	}
+}
+@media (max-width: 1000px) {
+	.preco {
+		font-size: 1em;
+	}
+	input#comprar {
+		font-size: 1em;
+	}
+}
+@media (max-width: 695px) {
+	body {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	article {
+		width: 100%;
+	}
+	.side-bar {
+		width: 70%;
+		padding: 2% 15%;
+	}
+	footer {
+		padding-left: 15%; 
+	}
+	.show .div-comprar {
+		padding: 2% 1% 1% 1%;
+		width: 100%;
+	}
+	.preco {
+		font-size: 1.5em;
+	}
+	input#comprar {
+		font-size: 1.7em;
+	}
+}
+@media (max-width: 500px) {
+	.show .div-comprar .preco-ingresso>p {
+		float: none;
+		width: 100%;
+		margin-top: 0;
+	}
+}
