@@ -103,6 +103,7 @@ input#comprar {
 	padding: 0 7% 4% 7%;
 	background-image: url(../img/btnComprar.jpg);
 	background-size: 100%;
+	background-color: rgb(81, 82, 128);
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 4.5%;
