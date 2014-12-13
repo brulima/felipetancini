@@ -128,7 +128,7 @@ input#comprar {
 	margin-bottom: 2%;
 	font-variant: small-caps;
 	cursor: pointer;
-	color: black;
+	color: white;
 }
 .show .ticket-information h3 {
 	font-weight: lighter;
@@ -248,8 +248,8 @@ article div {
 	}
 }
 @media (max-width: 563px) {
-	body>header h1 {
-		font-size: 2em;
+	body>header h1 span{
+		display: none;
 	}
 }
 @media (max-width: 500px) {
@@ -296,6 +296,6 @@ article div {
 }
 @media (max-width: 380px) {
 	body>header h1 {
-		font-size: 1.5em;
+		font-size: 2.5em;
 	}
 }
