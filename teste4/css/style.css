@@ -234,6 +234,9 @@ article div {
 	.ticket-information .send-info, .ticket-information .contact-box {
 		padding: 2%;
 	}
+	.ticket-information .send-info {
+		width: 96%;
+	}
 	.show .div-comprar img {
 		margin-left: 20%;
 	}
