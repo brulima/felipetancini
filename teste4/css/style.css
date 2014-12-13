@@ -146,6 +146,11 @@ input#comprar {
 .ticket-information .send-info {
 	font-size: 1em;
 	font-weight: lighter;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 .ticket-information h4 {
 	font-size: 2em;
@@ -216,6 +221,7 @@ article div {
 	.side-bar {
 		width: 70%;
 		padding: 2% 15%;
+		margin-top: 8%;
 	}
 	footer {
 		padding-left: 15%; 
