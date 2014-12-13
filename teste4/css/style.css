@@ -202,6 +202,9 @@ article div{
 	}
 }
 @media (max-width: 695px) {
+	article {
+		background-color: rgba(0, 0, 0, 0);
+	}
 	body {
 		padding-left: 0%;
 		padding-right: 0%;
@@ -266,6 +269,13 @@ article div{
 
 }
 @media (max-width: 420px) {
+	.side-bar {
+		width: 100%;
+		padding: 0;
+	}
+	.side-bar iframe {
+		width: 100%;
+	}
 	.show .ticket-information h3 {
 		font-size: 1.5em;
 	}
