@@ -6,6 +6,10 @@
 	font-family: BlackoutSunrise;
 	src: url(../font/blackout-sunrise.ttf);
 }
+@font-face {
+	font-family: Gotham;
+	src: url(../font/gotham.ttf);
+}
 body {
 	background-color: rgb(34, 35, 46);
 	padding: 0;	
@@ -13,7 +17,7 @@ body {
 	padding-left: 7%;
 	padding-right: 7%;
 	color: #DDDDDD;
-	font-family: Calibri, sans-serif;
+	font-family: Gotham, Calibri, sans-serif;
 }
 h1 {
 	font-family: BlackoutSunrise;
@@ -95,7 +99,7 @@ article {
 	float: left;
 	line-height: 30px;
 	color: #DDDDDD;
-	font-family: Calibri, sans-serif;
+	font-family: Gotham, Calibri, sans-serif;
 	font-weight: lighter;
 	margin-bottom: 0;
 }
@@ -135,7 +139,7 @@ input#comprar {
 	margin-bottom: 1%;
 	margin-top: 2%;
 	font-size: 1.5em;
-	font-family: Calibri, sans-serif;
+	font-family: Gotham, Calibri, sans-serif;
 	text-align: center;
 }
 .show .ticket-information img {
