@@ -167,7 +167,7 @@ a {
 	text-decoration: none;
 	color: #5B5BFF;
 }
-article div{
+article div {
 	padding: 2%;
 }
 @media (max-width: 1165px) {
@@ -204,13 +204,14 @@ article div{
 @media (max-width: 695px) {
 	article {
 		background-color: rgba(0, 0, 0, 0);
+		width: 100%;
 	}
 	body {
 		padding-left: 0%;
 		padding-right: 0%;
 	}
-	article {
-		width: 100%;
+	article div{
+		padding: 0;
 	}
 	.side-bar {
 		width: 70%;
@@ -222,6 +223,10 @@ article div{
 	.show .div-comprar {
 		padding: 2% 1% 1% 1%;
 		width: 100%;
+		border: none;
+	}
+	.ticket-information .send-info, .ticket-information .contact-box {
+		padding: 2%;
 	}
 	.show .div-comprar img {
 		margin-left: 20%;
