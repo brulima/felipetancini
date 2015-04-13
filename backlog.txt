@@ -1,0 +1,7 @@
+- Arrumar as bordas no mobile
+- Aumentar ao título
+- Aumentar o botão comprar
+- Centralizar o botão comprar
+- Colocar o preço em cima do botão comprar
+- Colocar foto para compartilhamento no facebook
+- Colocar dados da busca do google
