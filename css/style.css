@@ -86,9 +86,8 @@ body header h1 span {
 	color: #DDDDDD;
 	margin-bottom: 0;
 }
-.div-comprar h3 span {
-	font-weight: bolder;
-	font-size: 1.2em;
+.content .div-comprar h2 {
+	margin-top: 0;
 }
 .preco {
 	width: 66%;
@@ -113,7 +112,6 @@ input#comprar:hover {
 	width: 100%;
   	height: auto;
 	border: 2px solid black;
-  	margin-top: 8%;
 }
 .content h3 {
 	margin-top: 0;
@@ -248,7 +246,7 @@ a {
 	}
 	.content .article-content{
 		margin: 0 3% 2% 3%;
-		padding: 2% 3% 1% 3%;
+		padding: 0% 3% 1% 3%;
 	}
 	.content .div-comprar .preco-cd p {
 		float: none;
